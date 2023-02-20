@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EBDD223C-461F-4573-97BB-FEC74A098046"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68F25477-7304-43ED-B96B-6823DF5A3465"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drink/AddAlertViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "saveButtonTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C4D9676-2866-40A0-A975-7CE17EFA84AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drink/UNNotificationCenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "addNotificationRequest(by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80DACF5F-8C76-4254-A60E-0F4A2C0AB89A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drink/AlertListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "addAlertButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8155E936-B3F0-4859-90CE-97AA01B0AE03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drink/AddAlertViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AddAlertViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8155E936-B3F0-4859-90CE-97AA01B0AE03 - 8f4103a3212ea53f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AddAlertViewController.datePicker.getter : Swift.Optional&lt;__C.UIDatePicker&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/Fastcampus_ios/P3/Drink/Drink/AddAlertViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "8155E936-B3F0-4859-90CE-97AA01B0AE03 - fcfd483224474543"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AddAlertViewController.datePicker.setter : Swift.Optional&lt;__C.UIDatePicker&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/Fastcampus_ios/P3/Drink/Drink/AddAlertViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "8155E936-B3F0-4859-90CE-97AA01B0AE03 - 138fed91b48e3d32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AddAlertViewController.datePicker.modify : Swift.Optional&lt;__C.UIDatePicker&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/Fastcampus_ios/P3/Drink/Drink/AddAlertViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "8155E936-B3F0-4859-90CE-97AA01B0AE03 - 78a1d16eeec1f549"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AddAlertViewController.datePicker.modify : Swift.Optional&lt;__C.UIDatePicker&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/Fastcampus_ios/P3/Drink/Drink/AddAlertViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "8155E936-B3F0-4859-90CE-97AA01B0AE03 - f881ab30ab1ce1c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AddAlertViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Drink.AddAlertViewController"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/Fastcampus_ios/P3/Drink/Drink/AddAlertViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "8155E936-B3F0-4859-90CE-97AA01B0AE03 - a419fe4e5a5d2dcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AddAlertViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Drink.AddAlertViewController&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/Fastcampus_ios/P3/Drink/Drink/AddAlertViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "986011A1-71CB-4A9C-B349-6E4DAD120E99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drink/AlertListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "addAlertButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

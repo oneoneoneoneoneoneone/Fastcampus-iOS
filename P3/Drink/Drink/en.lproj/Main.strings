@@ -1,0 +1,18 @@
+
+/* Class = "UIBarButtonItem"; title = "취소"; ObjectID = "2Oj-T3-0KR"; */
+"2Oj-T3-0KR.title" = "취소";
+
+/* Class = "UINavigationItem"; title = "알람추가"; ObjectID = "PAA-o8-lh0"; */
+"PAA-o8-lh0.title" = "알람추가";
+
+/* Class = "UIBarButtonItem"; title = "저장"; ObjectID = "hVh-7P-7zz"; */
+"hVh-7P-7zz.title" = "저장";
+
+/* Class = "UINavigationItem"; title = "물 마시기"; ObjectID = "ivr-CF-2mD"; */
+"ivr-CF-2mD.title" = "물 마시기";
+
+/* Class = "UILabel"; text = "반복"; ObjectID = "jaJ-Hs-F5k"; */
+"jaJ-Hs-F5k.text" = "반복";
+
+/* Class = "UILabel"; text = "시간"; ObjectID = "kK6-91-q84"; */
+"kK6-91-q84.text" = "시간";

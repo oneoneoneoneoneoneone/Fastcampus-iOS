@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>105232539797-k56m1lebu8e7s5qulmto72mnt4ndt7s6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.105232539797-k56m1lebu8e7s5qulmto72mnt4ndt7s6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDjGofCaeyJ5BHtIE_uSvtraRLRr1Dr-Ag</string>
+	<key>GCM_SENDER_ID</key>
+	<string>105232539797</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>hana.Notice</string>
+	<key>PROJECT_ID</key>
+	<string>notice-e6285</string>
+	<key>STORAGE_BUCKET</key>
+	<string>notice-e6285.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:105232539797:ios:ded5bd9036756fcad6fb9c</string>
+</dict>
+</plist>

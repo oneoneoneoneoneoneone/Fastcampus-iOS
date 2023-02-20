@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CB44AAEF-E172-43D0-8311-9173832515A4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C469BEDD-831B-4265-9290-8336566AC15B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32BB54EE-6254-440C-AF46-E7367F35B25D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "114D8CA1-951D-457E-8065-926325967BED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DD636EF-8CA5-48F6-9F2A-AB39A951DA84"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/EnterEmailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "nextButtonTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2B90CDA-5132-4781-921A-EE58FD224FDA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/EnterEmailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "nextButtonTap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E2B90CDA-5132-4781-921A-EE58FD224FDA - e49af38028ffd9ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.EnterEmailViewController.nextButtonTap(__C.UIButton) -&gt; ()"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/EnterEmailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1092">
+               </Location>
+               <Location
+                  uuid = "E2B90CDA-5132-4781-921A-EE58FD224FDA - d7f5462a5af46f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpotifyLoginSampleApp.EnterEmailViewController.nextButtonTap(__C.UIButton) -&gt; ()"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/EnterEmailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DDF4936-64EE-4FBB-91B4-A8D1A1FF8A0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0DDF4936-64EE-4FBB-91B4-A8D1A1FF8A0E - 94378be1a374effc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.welcomeLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "0DDF4936-64EE-4FBB-91B4-A8D1A1FF8A0E - da602522bb090be0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.welcomeLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "0DDF4936-64EE-4FBB-91B4-A8D1A1FF8A0E - 3278600e2bb508ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.welcomeLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "0DDF4936-64EE-4FBB-91B4-A8D1A1FF8A0E - e3a8aae62493fb2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.welcomeLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "0DDF4936-64EE-4FBB-91B4-A8D1A1FF8A0E - c6658d75f62c4871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SpotifyLoginSampleApp.MainViewController"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "0DDF4936-64EE-4FBB-91B4-A8D1A1FF8A0E - dfd2919751e96349"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SpotifyLoginSampleApp.MainViewController&gt;"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19A419C3-4C88-4B10-A1F0-54904771E49B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "19A419C3-4C88-4B10-A1F0-54904771E49B - b6cd52a03d3795fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SpotifyLoginSampleApp.MainViewController"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "19A419C3-4C88-4B10-A1F0-54904771E49B - c6658d75f62c4871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SpotifyLoginSampleApp.MainViewController"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "19A419C3-4C88-4B10-A1F0-54904771E49B - 46875433b971b46f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SpotifyLoginSampleApp.MainViewController&gt;"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "19A419C3-4C88-4B10-A1F0-54904771E49B - dfd2919751e96349"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SpotifyLoginSampleApp.MainViewController&gt;"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "19A419C3-4C88-4B10-A1F0-54904771E49B - 14cfeda79be9216d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyLoginSampleApp.MainViewController.__deallocating_deinit"
+                  moduleName = "SpotifyLoginSampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hana/Programming/Xcode/fastcampus_ios/SpotifyLoginSampleApp/SpotifyLoginSampleApp/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49E93D55-53DE-4653-B1AC-F9000C4D186D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81A2805B-6F95-4209-B087-CFEAC486A95D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3125064D-6903-40AE-9FBF-3DEA40C7C801"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyLoginSampleApp/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "application(_:open:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

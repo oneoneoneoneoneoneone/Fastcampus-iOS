@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="pomodoro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="S2k-Z0-cN6">
+                                <rect key="frame" x="157" y="69" width="100" height="97.5"/>
+                                <color key="tintColor" white="0.029044430270000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1N1-Y4-9vV"/>
+                                    <constraint firstAttribute="width" constant="100" id="phs-FY-dTZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxg-d1-tEg">
+                                <rect key="frame" x="24" y="248" width="366" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" alpha="0.0" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="EiT-3O-BOZ">
+                                <rect key="frame" x="48" y="338" width="318" height="4"/>
+                                <color key="tintColor" red="0.45119521480000002" green="0.64774484860000003" blue="0.86078917980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </progressView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4E-YM-wFQ">
+                                <rect key="frame" x="0.0" y="198" width="414" height="216"/>
+                            </datePicker>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="uBI-BD-nwg">
+                                <rect key="frame" x="24" y="438" width="366" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIs-QF-yha">
+                                        <rect key="frame" x="0.0" y="0.0" width="143" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="취소"/>
+                                        <connections>
+                                            <action selector="tapCancelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rg8-Gc-xbW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wis-E7-Yw3">
+                                        <rect key="frame" x="223" y="0.0" width="143" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="시작"/>
+                                        <connections>
+                                            <action selector="tapToggleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lw9-XP-CAB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="tintColor" white="0.050754676870000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uBI-BD-nwg" firstAttribute="top" secondItem="b4E-YM-wFQ" secondAttribute="bottom" constant="24" id="0uo-DM-uVY"/>
+                            <constraint firstItem="b4E-YM-wFQ" firstAttribute="top" secondItem="S2k-Z0-cN6" secondAttribute="bottom" constant="30" id="3hd-J0-KJr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uBI-BD-nwg" secondAttribute="trailing" constant="24" id="DBS-Co-bRn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EiT-3O-BOZ" secondAttribute="trailing" constant="48" id="Fqf-1m-4E4"/>
+                            <constraint firstItem="EiT-3O-BOZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="SWl-xQ-HVL"/>
+                            <constraint firstItem="b4E-YM-wFQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sjl-b7-PnT"/>
+                            <constraint firstItem="uBI-BD-nwg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="YaJ-cq-krt"/>
+                            <constraint firstItem="Cxg-d1-tEg" firstAttribute="top" secondItem="S2k-Z0-cN6" secondAttribute="bottom" constant="80" id="app-tc-I8N"/>
+                            <constraint firstItem="S2k-Z0-cN6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dH0-Kp-ryJ"/>
+                            <constraint firstItem="b4E-YM-wFQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fWi-xk-amG"/>
+                            <constraint firstItem="Cxg-d1-tEg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="leu-z3-0Y6"/>
+                            <constraint firstItem="EiT-3O-BOZ" firstAttribute="top" secondItem="Cxg-d1-tEg" secondAttribute="bottom" constant="30" id="wre-4N-pVC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cxg-d1-tEg" secondAttribute="trailing" constant="24" id="xjp-jm-lT0"/>
+                            <constraint firstItem="S2k-Z0-cN6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="ye3-G4-tPc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="jIs-QF-yha" id="0zm-0g-Uzp"/>
+                        <outlet property="datePicker" destination="b4E-YM-wFQ" id="VPF-pw-iPu"/>
+                        <outlet property="imageView" destination="S2k-Z0-cN6" id="o5g-ym-ghW"/>
+                        <outlet property="progreeView" destination="EiT-3O-BOZ" id="yru-Hc-HJR"/>
+                        <outlet property="timerLabel" destination="Cxg-d1-tEg" id="kGJ-sy-FCH"/>
+                        <outlet property="toggleButton" destination="wis-E7-Yw3" id="dKp-Wu-Lat"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person.crop.rectangle.fill" catalog="system" width="128" height="93"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
