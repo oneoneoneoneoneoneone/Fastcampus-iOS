@@ -26,6 +26,15 @@
         "revision" : "f222cbdf325885926566172f6f5f06af95473158",
         "version" : "5.6.0"
       }
+    },
+    {
+      "identity" : "stubber",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/devxoul/Stubber",
+      "state" : {
+        "revision" : "9f1833587f2ec1b590e0047b00ab11c85d3ae57b",
+        "version" : "1.5.3"
+      }
     }
   ],
   "version" : 2

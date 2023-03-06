@@ -12,7 +12,7 @@
 		3373C565299E673B00E5758A /* ReviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C564299E673B00E5758A /* ReviewListViewController.swift */; };
 		3373C56A299E673E00E5758A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3373C569299E673E00E5758A /* Assets.xcassets */; };
 		3373C56D299E673E00E5758A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3373C56B299E673E00E5758A /* LaunchScreen.storyboard */; };
-		3373C578299E673E00E5758A /* BookReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C577299E673E00E5758A /* BookReviewTests.swift */; };
+		3373C578299E673E00E5758A /* ReviewListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C577299E673E00E5758A /* ReviewListPresenterTests.swift */; };
 		3373C582299E673E00E5758A /* BookReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C581299E673E00E5758A /* BookReviewUITests.swift */; };
 		3373C584299E673E00E5758A /* BookReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C583299E673E00E5758A /* BookReviewUITestsLaunchTests.swift */; };
 		3373C592299E679300E5758A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3373C591299E679300E5758A /* SnapKit */; };
@@ -29,6 +29,17 @@
 		3373C5AF299EA10100E5758A /* BookSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5AE299EA10100E5758A /* BookSearchManager.swift */; };
 		3373C5B229A3605600E5758A /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5B129A3605600E5758A /* UserDefaultsManager.swift */; };
 		3373C5B429A3607600E5758A /* BookReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5B329A3607600E5758A /* BookReview.swift */; };
+		3373C5BB29A49C0D00E5758A /* MockReviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5BA29A49C0D00E5758A /* MockReviewListViewController.swift */; };
+		3373C5BD29A49C3E00E5758A /* MockUserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5BC29A49C3E00E5758A /* MockUserDefaultsManager.swift */; };
+		3373C5C029A49D0000E5758A /* ReviewWritePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5BF29A49D0000E5758A /* ReviewWritePresenterTests.swift */; };
+		3373C5C329A4A9CC00E5758A /* MockReviewWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5C229A4A9CC00E5758A /* MockReviewWriteViewController.swift */; };
+		3373C5CC29A8330700E5758A /* MockSearchBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5CB29A8330700E5758A /* MockSearchBookViewController.swift */; };
+		3373C5CE29A833CC00E5758A /* SearchBookPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5CD29A833CC00E5758A /* SearchBookPresenterTests.swift */; };
+		3373C5D029A836CF00E5758A /* MockBookSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5CF29A836CF00E5758A /* MockBookSearchManager.swift */; };
+		3373C5D229A8499A00E5758A /* MockDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5D129A8499A00E5758A /* MockDelegate.swift */; };
+		3373C5D529A84EDB00E5758A /* Stubber in Frameworks */ = {isa = PBXBuildFile; productRef = 3373C5D429A84EDB00E5758A /* Stubber */; };
+		3373C5D729A850FA00E5758A /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5D629A850FA00E5758A /* Dummy.swift */; };
+		3373C5DB29A85B4100E5758A /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373C5DA29A85B4100E5758A /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +68,7 @@
 		3373C56C299E673E00E5758A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3373C56E299E673E00E5758A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3373C573299E673E00E5758A /* BookReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3373C577299E673E00E5758A /* BookReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewTests.swift; sourceTree = "<group>"; };
+		3373C577299E673E00E5758A /* ReviewListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListPresenterTests.swift; sourceTree = "<group>"; };
 		3373C57D299E673E00E5758A /* BookReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3373C581299E673E00E5758A /* BookReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITests.swift; sourceTree = "<group>"; };
 		3373C583299E673E00E5758A /* BookReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -72,6 +83,17 @@
 		3373C5AE299EA10100E5758A /* BookSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchManager.swift; sourceTree = "<group>"; };
 		3373C5B129A3605600E5758A /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		3373C5B329A3607600E5758A /* BookReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReview.swift; sourceTree = "<group>"; };
+		3373C5BA29A49C0D00E5758A /* MockReviewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviewListViewController.swift; sourceTree = "<group>"; };
+		3373C5BC29A49C3E00E5758A /* MockUserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultsManager.swift; sourceTree = "<group>"; };
+		3373C5BF29A49D0000E5758A /* ReviewWritePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWritePresenterTests.swift; sourceTree = "<group>"; };
+		3373C5C229A4A9CC00E5758A /* MockReviewWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviewWriteViewController.swift; sourceTree = "<group>"; };
+		3373C5CB29A8330700E5758A /* MockSearchBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchBookViewController.swift; sourceTree = "<group>"; };
+		3373C5CD29A833CC00E5758A /* SearchBookPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookPresenterTests.swift; sourceTree = "<group>"; };
+		3373C5CF29A836CF00E5758A /* MockBookSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookSearchManager.swift; sourceTree = "<group>"; };
+		3373C5D129A8499A00E5758A /* MockDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDelegate.swift; sourceTree = "<group>"; };
+		3373C5D629A850FA00E5758A /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		3373C5D829A8518700E5758A /* networkDummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = networkDummy.json; sourceTree = "<group>"; };
+		3373C5DA29A85B4100E5758A /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,7 @@
 			files = (
 				3373C598299E67BD00E5758A /* Kingfisher in Frameworks */,
 				3373C592299E679300E5758A /* SnapKit in Frameworks */,
+				3373C5D529A84EDB00E5758A /* Stubber in Frameworks */,
 				3373C595299E67AA00E5758A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +163,9 @@
 		3373C576299E673E00E5758A /* BookReviewTests */ = {
 			isa = PBXGroup;
 			children = (
-				3373C577299E673E00E5758A /* BookReviewTests.swift */,
+				3373C5D929A8518D00E5758A /* Dummy */,
+				3373C5C129A49D0500E5758A /* Tests */,
+				3373C5BE29A49C5100E5758A /* Mock */,
 			);
 			path = BookReviewTests;
 			sourceTree = "<group>";
@@ -205,10 +230,43 @@
 		3373C5B0299EA10600E5758A /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				3373C5DA29A85B4100E5758A /* APIKey.swift */,
 				3373C5AE299EA10100E5758A /* BookSearchManager.swift */,
 				3373C5B129A3605600E5758A /* UserDefaultsManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		3373C5BE29A49C5100E5758A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				3373C5C229A4A9CC00E5758A /* MockReviewWriteViewController.swift */,
+				3373C5BC29A49C3E00E5758A /* MockUserDefaultsManager.swift */,
+				3373C5CB29A8330700E5758A /* MockSearchBookViewController.swift */,
+				3373C5D129A8499A00E5758A /* MockDelegate.swift */,
+				3373C5CF29A836CF00E5758A /* MockBookSearchManager.swift */,
+				3373C5BA29A49C0D00E5758A /* MockReviewListViewController.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		3373C5C129A49D0500E5758A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3373C577299E673E00E5758A /* ReviewListPresenterTests.swift */,
+				3373C5BF29A49D0000E5758A /* ReviewWritePresenterTests.swift */,
+				3373C5CD29A833CC00E5758A /* SearchBookPresenterTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3373C5D929A8518D00E5758A /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				3373C5D629A850FA00E5758A /* Dummy.swift */,
+				3373C5D829A8518700E5758A /* networkDummy.json */,
+			);
+			path = Dummy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +289,7 @@
 				3373C591299E679300E5758A /* SnapKit */,
 				3373C594299E67AA00E5758A /* Alamofire */,
 				3373C597299E67BD00E5758A /* Kingfisher */,
+				3373C5D429A84EDB00E5758A /* Stubber */,
 			);
 			productName = BookReview;
 			productReference = 3373C55D299E673B00E5758A /* BookReview.app */;
@@ -308,6 +367,7 @@
 				3373C590299E679300E5758A /* XCRemoteSwiftPackageReference "SnapKit" */,
 				3373C593299E67AA00E5758A /* XCRemoteSwiftPackageReference "Alamofire" */,
 				3373C596299E67BD00E5758A /* XCRemoteSwiftPackageReference "KingFisher" */,
+				3373C5D329A84EDB00E5758A /* XCRemoteSwiftPackageReference "Stubber" */,
 			);
 			productRefGroup = 3373C55E299E673B00E5758A /* Products */;
 			projectDirPath = "";
@@ -355,6 +415,7 @@
 				3373C565299E673B00E5758A /* ReviewListViewController.swift in Sources */,
 				3373C5A8299E9FB100E5758A /* BookSearchRequestModel.swift in Sources */,
 				3373C5B229A3605600E5758A /* UserDefaultsManager.swift in Sources */,
+				3373C5DB29A85B4100E5758A /* APIKey.swift in Sources */,
 				3373C5B429A3607600E5758A /* BookReview.swift in Sources */,
 				3373C5AD299EA0B400E5758A /* Book.swift in Sources */,
 				3373C561299E673B00E5758A /* AppDelegate.swift in Sources */,
@@ -372,7 +433,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3373C578299E673E00E5758A /* BookReviewTests.swift in Sources */,
+				3373C5C329A4A9CC00E5758A /* MockReviewWriteViewController.swift in Sources */,
+				3373C5CC29A8330700E5758A /* MockSearchBookViewController.swift in Sources */,
+				3373C5D729A850FA00E5758A /* Dummy.swift in Sources */,
+				3373C5CE29A833CC00E5758A /* SearchBookPresenterTests.swift in Sources */,
+				3373C5BB29A49C0D00E5758A /* MockReviewListViewController.swift in Sources */,
+				3373C5D229A8499A00E5758A /* MockDelegate.swift in Sources */,
+				3373C5D029A836CF00E5758A /* MockBookSearchManager.swift in Sources */,
+				3373C578299E673E00E5758A /* ReviewListPresenterTests.swift in Sources */,
+				3373C5C029A49D0000E5758A /* ReviewWritePresenterTests.swift in Sources */,
+				3373C5BD29A49C3E00E5758A /* MockUserDefaultsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,6 +792,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		3373C5D329A84EDB00E5758A /* XCRemoteSwiftPackageReference "Stubber" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Stubber";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -739,6 +817,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3373C596299E67BD00E5758A /* XCRemoteSwiftPackageReference "KingFisher" */;
 			productName = Kingfisher;
+		};
+		3373C5D429A84EDB00E5758A /* Stubber */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3373C5D329A84EDB00E5758A /* XCRemoteSwiftPackageReference "Stubber" */;
+			productName = Stubber;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

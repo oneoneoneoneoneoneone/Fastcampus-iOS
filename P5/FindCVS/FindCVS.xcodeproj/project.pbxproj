@@ -10,6 +10,7 @@
 		334AA24428E59416004C6B10 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 334AA24328E59416004C6B10 /* RxCocoa */; };
 		334AA24628E59416004C6B10 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 334AA24528E59416004C6B10 /* RxRelay */; };
 		334AA24828E59416004C6B10 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 334AA24728E59416004C6B10 /* RxSwift */; };
+		3373C5B929A3962400E5758A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3373C5B829A3962400E5758A /* Alamofire */; };
 		33B3F61E28E3E150007E484B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B3F61D28E3E150007E484B /* AppDelegate.swift */; };
 		33B3F62028E3E150007E484B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B3F61F28E3E150007E484B /* SceneDelegate.swift */; };
 		33B3F62228E3E150007E484B /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B3F62128E3E150007E484B /* LocationInformationViewController.swift */; };
@@ -67,7 +68,6 @@
 		33B3F6EB28E56AE3007E484B /* LocalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B3F6EA28E56AE3007E484B /* LocalNetwork.swift */; };
 		33B3F6ED28E5710A007E484B /* LocationInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B3F6EC28E5710A007E484B /* LocationInformationModel.swift */; };
 		33D273602993798E00EF9321 /* LocalNetworkStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D2735F2993798E00EF9321 /* LocalNetworkStub.swift */; };
-		33D2736229937E2200EF9321 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 33D2736129937E2200EF9321 /* RxTest */; };
 		33D2736429937E2900EF9321 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 33D2736329937E2900EF9321 /* RxBlocking */; };
 		33D2736729937EA900EF9321 /* Stubber in Frameworks */ = {isa = PBXBuildFile; productRef = 33D2736629937EA900EF9321 /* Stubber */; };
 		33D2736A29937EC700EF9321 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 33D2736929937EC700EF9321 /* Nimble */; };
@@ -169,13 +169,13 @@
 				33D2736729937EA900EF9321 /* Stubber in Frameworks */,
 				334AA24828E59416004C6B10 /* RxSwift in Frameworks */,
 				33B3F6B928E41A1D007E484B /* SnapKit in Frameworks */,
+				3373C5B929A3962400E5758A /* Alamofire in Frameworks */,
 				33D2736429937E2900EF9321 /* RxBlocking in Frameworks */,
 				334AA24628E59416004C6B10 /* RxRelay in Frameworks */,
 				33B3F69D28E3F8EF007E484B /* SystemConfiguration.framework in Frameworks */,
 				33B3F6A428E3F9BE007E484B /* OpenGLES.framework in Frameworks */,
 				33B3F69B28E3F8ED007E484B /* QuartzCore.framework in Frameworks */,
 				33B3F68828E3EBF6007E484B /* libsqlite3.tbd in Frameworks */,
-				33D2736229937E2200EF9321 /* RxTest in Frameworks */,
 				33B3F6B428E419FB007E484B /* RxSwift in Frameworks */,
 				33B3F6B028E419FB007E484B /* RxCocoa in Frameworks */,
 				33D2736A29937EC700EF9321 /* Nimble in Frameworks */,
@@ -386,10 +386,10 @@
 				334AA24328E59416004C6B10 /* RxCocoa */,
 				334AA24528E59416004C6B10 /* RxRelay */,
 				334AA24728E59416004C6B10 /* RxSwift */,
-				33D2736129937E2200EF9321 /* RxTest */,
 				33D2736329937E2900EF9321 /* RxBlocking */,
 				33D2736629937EA900EF9321 /* Stubber */,
 				33D2736929937EC700EF9321 /* Nimble */,
+				3373C5B829A3962400E5758A /* Alamofire */,
 			);
 			productName = FindCVS;
 			productReference = 33B3F61A28E3E150007E484B /* FindCVS.app */;
@@ -449,6 +449,7 @@
 				33B3F6B728E41A1D007E484B /* XCRemoteSwiftPackageReference "SnapKit" */,
 				33D2736529937EA900EF9321 /* XCRemoteSwiftPackageReference "Stubber" */,
 				33D2736829937EC700EF9321 /* XCRemoteSwiftPackageReference "Nimble" */,
+				3373C5B729A3962400E5758A /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 33B3F61B28E3E150007E484B /* Products */;
 			projectDirPath = "";
@@ -600,8 +601,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
-				EXCLUDED_ARCHS = arm64;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -616,7 +616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -665,8 +665,7 @@
 				ENABLE_ON_DEMAND_RESOURCES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
-				EXCLUDED_ARCHS = arm64;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -675,7 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -695,7 +694,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8UZ8DJTY29;
+				DEVELOPMENT_TEAM = 4QNJWH8J8Y;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				EXCLUDED_ARCHS = arm64;
 				"EXCLUDED_ARCHS[sdk=*]" = "";
@@ -710,6 +709,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -733,7 +733,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8UZ8DJTY29;
+				DEVELOPMENT_TEAM = 4QNJWH8J8Y;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				EXCLUDED_ARCHS = arm64;
 				"EXCLUDED_ARCHS[sdk=*]" = "";
@@ -748,6 +748,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -772,7 +773,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8UZ8DJTY29;
+				DEVELOPMENT_TEAM = 4QNJWH8J8Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -800,7 +801,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8UZ8DJTY29;
+				DEVELOPMENT_TEAM = 4QNJWH8J8Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -851,6 +852,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3373C5B729A3962400E5758A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		33B3F63128E3E3FE007E484B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
@@ -917,6 +926,11 @@
 			package = 33B3F6AC28E419FB007E484B /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
+		3373C5B829A3962400E5758A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3373C5B729A3962400E5758A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		33B3F63228E3E3FE007E484B /* KakaoSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 33B3F63128E3E3FE007E484B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
@@ -946,11 +960,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 33B3F6B728E41A1D007E484B /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		33D2736129937E2200EF9321 /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 33B3F6AC28E419FB007E484B /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
 		};
 		33D2736329937E2900EF9321 /* RxBlocking */ = {
 			isa = XCSwiftPackageProductDependency;

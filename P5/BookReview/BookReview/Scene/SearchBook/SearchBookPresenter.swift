@@ -21,15 +21,17 @@ protocol SearchBookDelegate{
 
 final class SearchBookPresenter: NSObject{
     private let viewController: SearchBookProtocol
-    private let bookSearchManager = BookSearchManager()
+    private let bookSearchManager: BookSearchManagerProtocol
     
     private let delegate: SearchBookDelegate
     
-    private var books: [Book] = []
+//    private var books: [Book] = []
+    var books: [Book] = []
     
-    init(viewController: SearchBookProtocol, delegate: SearchBookDelegate) {
+    init(viewController: SearchBookProtocol, delegate: SearchBookDelegate, bookSearchManager: BookSearchManagerProtocol = BookSearchManager()) {
         self.viewController = viewController
         self.delegate = delegate
+        self.bookSearchManager = bookSearchManager
     }
     
     func viewDidLoad(){

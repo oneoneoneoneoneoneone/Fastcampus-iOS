@@ -8,14 +8,19 @@
 import Foundation
 import Alamofire
 
-struct BookSearchManager{
+//테스트를 위한 프로토콜 기반
+protocol BookSearchManagerProtocol{
+    func request(from keyword: String, completionHandler: @escaping (([Book]) -> Void))
+}
+
+struct BookSearchManager: BookSearchManagerProtocol{
     func request(from keyword: String, completionHandler: @escaping (([Book]) -> Void)){
         guard let url = URL(string: "https://openapi.naver.com/v1/search/book.json") else {return}
         
         let prameters = BookSearchRequestModel(query: keyword)
         let headers: HTTPHeaders = [
-            "X-Naver-Client-Id": "DlAJDKFN_FosbWxzJrLS",
-            "X-Naver-Client-Secret": "gZlhVeEV3a"
+            "X-Naver-Client-Id": APIKey().X_Naver_Client_Id,
+            "X-Naver-Client-Secret": APIKey().X_Naver_Client_Secret
         ]
         
         AF
