@@ -24,7 +24,82 @@
 
 ## 주요 프로젝트
 
-### 1. 물마시기 알람 앱 만들기
+### 1. 실시간 공지사항 팝업 만들기
+- 기능: 단순 공지사항 팝업을 띄우는 기능을 가진 앱으로, Firebase Remote Config와 연결하여 실시간으로 공지 내용을 변경할 수 있습니다.
+
+- 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Notice)
+
+- 화면
+    |<img src="https://user-images.githubusercontent.com/94464179/220093765-63e010ac-3625-4aec-9911-4e0c2d7ed350.png" width="12%" height="12%" alt>| 
+    |:--:|
+    | *공지 화면* |
+    
+- 학습 내용
+  - Firebase Remote Config
+
+- 주요 기능을 구현한 코드
+    <details>
+    <summary>코드 흐름</summary>
+    <div markdown="1">
+
+    - Firebase Remote Config 연결
+      ~~~swift
+      //ViewController
+        var remoteConfig: RemoteConfig?
+        remoteConfig = RemoteConfig.remoteConfig()
+
+        let setting = RemoteConfigSettings()
+        //테스트를 위해 새로운 값을 패치하는 리커버를 최소화해서 최대한 자주 가져옴//개발 중 0
+        setting.minimumFetchInterval = 0
+
+        remoteConfig?.configSettings = setting
+        remoteConfig?.setDefaults(fromPlist: "RemoteConfigDefaults")
+      ~~~
+
+    - 공지확인 터치시 Firebase A-B Test 기록
+      ~~~swift
+      //ViewController
+        let confirmAction = UIAlertAction(title: "확인하기", style: .default) { _ in
+            //google analytics 이벤트 기록
+            Analytics.logEvent("promotion_alert", parameters: nil)
+        }
+      ~~~
+
+    </div>
+    </details>
+
+
+</br>
+
+### 2. 재난문자 푸시 알림 구현하기
+- 기능: Firebase Clouding Messaging 사용해 APNs 알림을 보낼 수 있습니다.
+
+- 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Notice)
+
+- 학습 내용
+  - CocoaPads
+  - Firebase Clouding Messaging
+  - APNs
+
+- 주요 기능을 구현한 코드
+    <details>
+    <summary>코드 - FCM 토큰 발급</summary>
+    <div markdown="1">
+
+    ~~~swift
+        func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
+            guard let token = fcmToken else {return}
+            print("FCM 등록토큰 갱신: \(token)")
+        }
+    ~~~
+
+    </div>
+    </details>
+
+
+</br>
+
+### 3. 물마시기 알람 앱 만들기
 - 기능: 물마시기 알림을 추가하고 설정한 시간에 알림을 받아볼 수 있습니다. 
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Drink)
@@ -42,24 +117,77 @@
   - datePicker & DateFormmet
 
 - 주요 기능을 구현한 코드
+    <details>
+    <summary>코드 흐름</summary>
+    <div markdown="1">
 
+    - 알림추가 화면에서 리스트뷰로 데이터 넘기기
+      ~~~swift
+      //AddAlertViewController
+
+        var pickedDate: ((_ date: Date,_ isRepeat: Bool, _ duration: Double) -> Void)? 
+
+        @IBAction func saveButtonTap(_ sender: UIBarButtonItem) {
+            pickedDate?(datePicker.date, isRepeatSwitch.isOn, datePicker.date.timeIntervalSinceNow + timePicker.countDownDuration)
+
+            self.dismiss(animated: true, completion: nil)
+        }
+      ~~~
+
+    - 테이블뷰에서 추가된 알림을 UNUserNotificationCenter에 넘기기
+      ~~~swift
+      //AlertListViewController
+
+        addAlertVC.pickedDate = {[weak self] date, isRepeat, duration in
+            guard let self = self else {return}
+
+            let newAlert = Alert(date: date, isOn: true, isRepeat: isRepeat, duration: duration)
+
+            ... //테이블뷰 데이터 업데이트 및 정렬, 내부저장소 저장
+
+            //센터에 알림을 추가하는 메소드 호출
+            self.userNotificationCenter.addNotificationRequest(by: newAlert)
+        }
+      ~~~
+
+    - UNUserNotificationCenter에 알림 추가
+      ~~~swift
+      //UNUserNotificationCenter
+
+        let content = UNMutableNotificationContent()
+        ... //content 설정
+
+        //UNCalendarNotificationTrigger - 시간 알림
+        let component = Calendar.current.dateComponents([.hour, .minute], from: alert.date)
+        let trigger = UNCalendarNotificationTrigger(dateMatching: component, repeats: alert.isOn)
+        let request = UNNotificationRequest(identifier: alert.id, content: content, trigger: trigger)
+        self.add(request, withCompletionHandler: nil)
+
+        //UNTimeIntervalNotificationTrigger - 타이머 알림 (다시알림)
+        let timeTrigger = UNTimeIntervalNotificationTrigger(timeInterval: alert.duration, repeats: false)
+        let timeRequest = UNNotificationRequest(identifier: alert.id, content: content, trigger: timeTrigger)
+        self.add(timeRequest, withCompletionHandler: nil)
+      ~~~
+
+    - 사용자 알림 승인
+      ~~~swift 
+      //AppDelegate
+
+        let authrizationOptions = UNAuthorizationOptions(arrayLiteral: [.alert, .badge, .sound])
+        userNotificationCenter.requestAuthorization(options: authrizationOptions){_, error in
+            if let error = error{
+              print("ERROR: \(error)")
+            }
+        }
+      ~~~
+
+    </div>
+    </details>
+    
+    
 </br>
 
-### 2. 재난문자 푸시 알림 구현하기
-- 기능: Firebase Clouding Messaging 사용해 APNs 알림을 보낼 수 있습니다.
-
-- 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Notice)
-
-- 학습 내용
-  - CocoaPads
-  - Firebase Clouding Messaging
-  - APNs
-
-- 주요 기능을 구현한 코드
-
-</br>
-
-### 3. 다음 카페/블로그 검색앱 만들기
+### 4. 다음 카페/블로그 검색앱 만들기
 - 기능: 다음 카페/블로그 글을 검색하고, 이름/작성일 기준으로 정렬하여 조회 할 수 있습니다.
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P4/SubwayStation)
@@ -212,7 +340,7 @@
     
 </br>
 
-### 4. 내 근처 편의점 찾기 앱
+### 5. 내 근처 편의점 찾기 앱
 - 기능: 사용자의 현재위치를 받아와 편의점으로 검색한 점포를 지도에서 확인할 수 있습니다.
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P5/FindCVS)
@@ -233,7 +361,7 @@
 
 </br>
 
-### 5. 도서리뷰 앱 만들기
+### 6. 도서리뷰 앱 만들기
 - 기능: 제목으로 검색한 책 제목/이미지 데이터를 활용해 리뷰를 작성하고 그 목록을 조회할 수 있습니다.
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P5/BookReview)
@@ -246,7 +374,7 @@
 - 학습내용
   - Naver 검색 API
   - Alamofire
-  - Delegate 패턴
+  - MVP Achitecture
   - XCTest
   
 - 주요 기능을 구현한 코드
