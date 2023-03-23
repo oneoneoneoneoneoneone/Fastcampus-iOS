@@ -30,7 +30,7 @@
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Notice)
 
 - 화면
-    |<img src="https://user-images.githubusercontent.com/94464179/220093765-63e010ac-3625-4aec-9911-4e0c2d7ed350.png" width="12%" height="12%" alt>| 
+    |<img src="https://user-images.githubusercontent.com/94464179/220093765-63e010ac-3625-4aec-9911-4e0c2d7ed350.png" width="15%" height="15%" alt>| 
     |:--:|
     | *공지 화면* |
     
@@ -107,7 +107,7 @@
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Drink)
 
 - 화면
-    |<img src="https://user-images.githubusercontent.com/94464179/218811403-eeace868-3889-4fc7-a9d8-fbbce151f7b9.png" width="25%" height="25%" alt>|<img src="https://user-images.githubusercontent.com/94464179/218811403-eeace868-3889-4fc7-a9d8-fbbce151f7b9.png" width="25%" height="25%" alt>| 
+    |<img src="https://user-images.githubusercontent.com/94464179/227205631-158b8550-1ce1-41a2-a18b-1797603e92f3.png" width="30%" height="30%" alt>|<img src="https://user-images.githubusercontent.com/94464179/227205648-03690baa-25e6-452b-b921-432a25c81b8a.png" width="30%" height="30%" alt>| 
     |:--:|:--:|
     | *리스트 화면* | *알림 추가 화면* |
     
@@ -196,7 +196,7 @@
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P4/SubwayStation)
 
 - 화면
-    |<img src="https://user-images.githubusercontent.com/94464179/220095185-ac42021f-97e2-4352-aca2-e1dc5bcc8639.png" width="12%" height="12%" alt>| 
+    |<img src="https://user-images.githubusercontent.com/94464179/220095185-ac42021f-97e2-4352-aca2-e1dc5bcc8639.png" width="15%" height="15%" alt>| 
     |:--:|
     | *검색 리스트 화면* |
 
@@ -351,9 +351,9 @@
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P5/FindCVS)
 
 - 화면
-    |<img src="https://user-images.githubusercontent.com/94464179/218811403-eeace868-3889-4fc7-a9d8-fbbce151f7b9.png" width="25%" height="25%" alt>|<img src="https://user-images.githubusercontent.com/94464179/218811403-eeace868-3889-4fc7-a9d8-fbbce151f7b9.png" width="25%" height="25%" alt>| 
-    |:--:|:--:|
-    | *리스트화면* | *알림추가화면* |
+    |<img src="" width="30%" height="15%" alt>|
+    |:--:|
+    | *화면* |
 
 - 학습내용
   - DaumMap API
