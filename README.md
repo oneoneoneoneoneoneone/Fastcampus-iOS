@@ -351,7 +351,7 @@
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P5/FindCVS)
 
 - 화면
-    |<img src="" width="30%" height="15%" alt>|
+    |<img src="https://user-images.githubusercontent.com/94464179/227219288-569c1573-7317-48c6-8975-8c6627452618.JPG" width="15%" height="15%" alt>|
     |:--:|
     | *화면* |
 
@@ -424,7 +424,7 @@
   <summary>리뷰 저장(딜리게이트 패턴)</summary>
   <div markdown="1">
 
-  - ViewController단에서는 presenter단에 프로토콜 딜리게이트를 전달??합니다.
+  - ViewController단에서 프로토콜 딜리게이트를 선언합니다.
     ~~~swift
     //SearchBookViewController
       private lazy var presenter = SearchBookPresenter(viewController: self, delegate: serachBookDelegate)
