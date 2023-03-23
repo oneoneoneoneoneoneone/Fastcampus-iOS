@@ -1,7 +1,7 @@
 # :pushpin: 패스트캠퍼스 iOS 온라인 강의 실습 프로젝트
 처음 Swift 언어 학습을 위해 기초 문법부터 앱 제작까지 강의를 따라 실습한 프로젝트입니다.
 >강의 정보: [[패스트캠퍼스]30개 프로젝트로 배우는 iOS 앱 개발 with Swift 초격차 패키지 Online](https://fastcampus.co.kr/dev_online_iosappfinal)</br>
->제작 기간: 2022.03 ~ 2023.02</br>
+>제작 기간: 2022.04 ~ 2023.02</br>
 >참여 인원: 개인 프로젝트
 
 
@@ -307,11 +307,11 @@
           .disposed(by: disposeBag)
     ~~~
 
-  - 검색버튼 탭 되었을 때 결과처리??????????????????????
+  - 검색버튼 탭 되었을 때 결과처리
     ~~~swift
     //SearchBar
       self.shouldLoadResult = searchButtonTap
-          //옵셔널처리를 왜 $1 ?????????????????????????
+          //
           .withLatestFrom(queryText) {$1 ?? ""}
           .filter{!$0.isEmpty}
           .distinctUntilChanged()
@@ -358,9 +358,6 @@
 - 학습내용
   - DaumMap API
     - SDK 사용
-  - DaumMap API
-    - 처리 메소드
-    - API 빌드오류 해결..
   - RxSwift로 커스텀 메소드
 
 
