@@ -358,7 +358,7 @@
 - 학습내용
   - DaumMap API
     - SDK 사용
-  - RxSwift로 커스텀 메소드
+  - RxSwift Reactive 메소드 
 
 
 </br>
