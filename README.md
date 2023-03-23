@@ -353,7 +353,7 @@
 - 화면
     |<img src="https://user-images.githubusercontent.com/94464179/227219288-569c1573-7317-48c6-8975-8c6627452618.JPG" width="15%" height="15%" alt>|
     |:--:|
-    | *화면* |
+    | *지도 화면* |
 
 - 학습내용
   - DaumMap API
