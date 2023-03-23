@@ -30,17 +30,17 @@
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P5/BookReview)
 
-- 화면
-    |<img src="https://user-images.githubusercontent.com/94464179/220159735-8f41ee26-39df-4df1-a0b4-78119eab6aac.png" width="40%" height="40%" alt>|<img src="https://user-images.githubusercontent.com/94464179/220159759-d67f0dfa-9bb5-403f-a3ec-8f6580f09685.png" width="40%" height="40%" alt>|<img src= "https://user-images.githubusercontent.com/94464179/220159748-f8f2ff02-c76e-430b-a98b-795ea4ac9a06.png" width="40%" height="40%" alt>|
-    |:--:|:--:|:--:|
-    | *리스트 화면* | *리뷰 작성 화면* | *제목 검색 화면* |
-    
-- 학습내용
+- 학습 기술
   - Naver 검색 API
   - Alamofire
   - MVP Achitecture
   - XCTest
-  
+
+- 화면
+    |<img src="https://user-images.githubusercontent.com/94464179/220159735-8f41ee26-39df-4df1-a0b4-78119eab6aac.png" width="40%" height="40%" alt>|<img src="https://user-images.githubusercontent.com/94464179/220159759-d67f0dfa-9bb5-403f-a3ec-8f6580f09685.png" width="40%" height="40%" alt>|<img src= "https://user-images.githubusercontent.com/94464179/220159748-f8f2ff02-c76e-430b-a98b-795ea4ac9a06.png" width="40%" height="40%" alt>|
+    |:--:|:--:|:--:|
+    | *리스트 화면* | *리뷰 작성 화면* | *제목 검색 화면* |
+      
 - 주요 기능을 구현한 코드
   <details>
   <summary>책 검색</summary>
@@ -197,15 +197,15 @@
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P5/FindCVS)
 
+- 학습 기술
+  - DaumMap API
+    - SDK 사용
+  - RxSwift Reactive 메소드 
+
 - 화면
     |<img src="https://user-images.githubusercontent.com/94464179/227219288-569c1573-7317-48c6-8975-8c6627452618.JPG" width="15%" height="15%" alt>|
     |:--:|
     | *지도 화면* |
-
-- 학습내용
-  - DaumMap API
-    - SDK 사용
-  - RxSwift Reactive 메소드 
 
 
 </br>
@@ -216,17 +216,17 @@
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P4/SubwayStation)
 
-- 화면
-    |<img src="https://user-images.githubusercontent.com/94464179/220095185-ac42021f-97e2-4352-aca2-e1dc5bcc8639.png" width="15%" height="15%" alt>| 
-    |:--:|
-    | *검색 리스트 화면* |
-
-- 학습 내용
+- 학습 기술 
   - UISearchbar
   - NSURLRequest
     - 다음 검색 API 통신을 위해 사용한 라이브러리 입니다.
   - RxSwift / RxCocoa
   - MVVM Achitecture
+
+- 화면
+    |<img src="https://user-images.githubusercontent.com/94464179/220095185-ac42021f-97e2-4352-aca2-e1dc5bcc8639.png" width="15%" height="15%" alt>| 
+    |:--:|
+    | *검색 리스트 화면* |
 
 - 주요 기능을 구현한 코드
   <details>
@@ -370,19 +370,19 @@
 - 기능: 물마시기 알림을 추가하고 설정한 시간에 알림을 받아볼 수 있습니다. 
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Drink)
-
-- 화면
-    |<img src="https://user-images.githubusercontent.com/94464179/227205631-158b8550-1ce1-41a2-a18b-1797603e92f3.png" width="30%" height="30%" alt>|<img src="https://user-images.githubusercontent.com/94464179/227205648-03690baa-25e6-452b-b921-432a25c81b8a.png" width="30%" height="30%" alt>| 
-    |:--:|:--:|
-    | *리스트 화면* | *알림 추가 화면* |
     
-- 학습 내용
+- 학습 기술  
   - UNUserNotificationCenter
     - UNAuthorizationOptions 사용자 승인
     - UNCalendarNotificationTrigger 특정날짜(시간) 알림
     - UNTimeIntervalNotificationTrigger 다시 알림
   - datePicker & DateFormmet
-
+    
+- 화면
+    |<img src="https://user-images.githubusercontent.com/94464179/227205631-158b8550-1ce1-41a2-a18b-1797603e92f3.png" width="30%" height="30%" alt>|<img src="https://user-images.githubusercontent.com/94464179/227205648-03690baa-25e6-452b-b921-432a25c81b8a.png" width="30%" height="30%" alt>| 
+    |:--:|:--:|
+    | *리스트 화면* | *알림 추가 화면* |
+    
 - 주요 기능을 구현한 코드
     <details>
     <summary>코드 흐름</summary>
@@ -460,7 +460,7 @@
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Notice)
 
-- 학습 내용
+- 학습 기술
   - CocoaPads
   - Firebase Clouding Messaging
   - APNs
@@ -489,13 +489,13 @@
 
 - 프로젝트 코드: [🔗](https://github.com/oneoneoneoneoneoneone/Fastcampus-iOS/tree/main/P3/Notice)
 
+- 학습 기술
+  - Firebase Remote Config
+
 - 화면
     |<img src="https://user-images.githubusercontent.com/94464179/220093765-63e010ac-3625-4aec-9911-4e0c2d7ed350.png" width="15%" height="15%" alt>| 
     |:--:|
-    | *공지 화면* |
-    
-- 학습 내용
-  - Firebase Remote Config
+    | *공지 화면* |  
 
 - 주요 기능을 구현한 코드
     <details>
