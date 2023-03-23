@@ -84,7 +84,7 @@
 
 - 주요 기능을 구현한 코드
     <details>
-    <summary>코드 - FCM 토큰 발급</summary>
+    <summary>FCM 토큰 발급</summary>
     <div markdown="1">
 
     ~~~swift
